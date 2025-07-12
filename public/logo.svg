@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg {
+      fill: #111111; /* Dark background */
+    }
+    .letter {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 36px;
+      font-weight: bold;
+      fill: #ffffff;
+    }
+    .triangle {
+      fill: #e24d28;
+    }
+  </style>
+
+  <!-- Rounded Rectangle Background -->
+  <rect x="0" y="0" width="64" height="64" rx="12" ry="12" class="bg" />
+
+  <!-- Centered Letter S -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" class="letter">S</text>
+
+  <!-- Triangle Under S -->
+  <polygon points="28,46 36,46 32,52" class="triangle"/>
+</svg>

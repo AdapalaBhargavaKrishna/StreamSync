@@ -1,0 +1,15 @@
+<svg width="360" height="80" viewBox="0 0 360 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { 
+      font-family: 'Segoe UI', sans-serif; 
+      font-size: 48px; 
+      font-weight: bold; 
+      fill: #4a4a4a; 
+    }
+    .triangle {
+      fill: #e24d28;
+    }
+  </style>
+  <text x="16" y="55" class="text">STREAMSYNC</text>
+  <polygon points="130,55 140,55 135,63" class="triangle"/>
+</svg>
